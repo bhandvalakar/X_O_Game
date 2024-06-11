@@ -26,6 +26,7 @@ The game board positions are numbered as follows:
 6 | 7 | 8
 
 Example Gameplay: 
+
 Welcome to Tic Tac Toe
 0 | 1 | 2
 --|---|---
@@ -34,6 +35,7 @@ Welcome to Tic Tac Toe
 6 | 7 | 8
 
 X's Chance
+
 Please enter a value: 0
 X | 1 | 2
 --|---|---
@@ -42,6 +44,7 @@ X | 1 | 2
 6 | 7 | 8
 
 O's Chance
+
 Please enter a value: 4
 X | 1 | 2
 --|---|---
@@ -51,20 +54,20 @@ X | 1 | 2
 
 # Code Explanation
 
-Functions
+**Functions**
 * sum(a, b, c): Returns the sum of three numbers. Used to check winning conditions.
 * printBoard(xState, zState): Prints the current state of the game board.
 * checkWin(xState, zState): Checks if there's a winning condition for either player. Returns 1 if X wins, 0 if O wins, and -1 if the game continues.
 
-Main Loop
+**Main Loop**
 The main loop runs the game, alternating turns between players X and O. It prompts the current player to enter a move, updates the game state, prints the updated game board, and checks for a winner. The game loop terminates when a player wins or the board is full.
 
-Requirements
+**Requirements**
 Python 3.x
 
-How to Run
-Make sure you have Python 3 installed on your system.
-Download or clone this repository.
-Navigate to the directory containing the script.
-Run the script using the command: python game_X_and_O.py
-Enjoy playing Tic Tac Toe!
+**How to Run**
+* Make sure you have Python 3 installed on your system.
+* Download or clone this repository.
+* Navigate to the directory containing the script.
+* Run the script using the command: python game_X_and_O.py
+* Enjoy playing Tic Tac Toe!
