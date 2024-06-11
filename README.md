@@ -32,6 +32,7 @@ Welcome to Tic Tac Toe
 3 | 4 | 5
 --|---|---
 6 | 7 | 8
+
 X's Chance
 Please enter a value: 0
 X | 1 | 2
@@ -39,6 +40,7 @@ X | 1 | 2
 3 | 4 | 5
 --|---|---
 6 | 7 | 8
+
 O's Chance
 Please enter a value: 4
 X | 1 | 2
