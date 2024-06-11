@@ -60,9 +60,11 @@ X | 1 | 2
 * checkWin(xState, zState): Checks if there's a winning condition for either player. Returns 1 if X wins, 0 if O wins, and -1 if the game continues.
 
 **Main Loop**
+
 The main loop runs the game, alternating turns between players X and O. It prompts the current player to enter a move, updates the game state, prints the updated game board, and checks for a winner. The game loop terminates when a player wins or the board is full.
 
 **Requirements**
+
 Python 3.x
 
 **How to Run**
